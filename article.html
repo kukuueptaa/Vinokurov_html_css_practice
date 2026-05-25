@@ -22,7 +22,7 @@
       изменениях.</i> И здесь помогают правила организации отступов. Они позволяют легко
       менять, улучшать и масштабировать вёрстку и уберегут вас от типичных ошибок.
     </p>
-    <div class="gray-box">
+    <div class="gray-box bc-gray-box-title">
       <h2 class="content-title">
         Содержание
       </h2>
@@ -34,10 +34,10 @@
       </p>
 
       <ul class="number-list">
-        <li class="element-list"><a href="#previous-element-next">Основные принципы работы с отступами</a></li>
-        <li class="element-list"><a href="#first-principle">Первый принцип: отступы от предыдущего к следующему</a></li>
-        <li class="element-list"><a href="#second-principle">Второй принцип: отступы задаются только между соседями</a></li>
-        <li class="element-list"><a href="#third-principle">Третий принцип: у последнего элемента группы обнуляем отступ</a></li>
+        <li class="element-list"><a class="list-link" href="#previous-element-next">Основные принципы работы с отступами</a></li>
+        <li class="element-list"><a class="list-link" href="#first-principle">Первый принцип: отступы от предыдущего к следующему</a></li>
+        <li class="element-list"><a class="list-link" href="#second-principle">Второй принцип: отступы задаются только между соседями</a></li>
+        <li class="element-list"><a class="list-link" href="#third-principle">Третий принцип: у последнего элемента группы обнуляем отступ</a></li>
       </ul>
     </div>
 
@@ -51,7 +51,7 @@
         если какой-то элемент на макете находится справа, он должен в HTML-коде идти
         последним из своей группы.
       </p>
-      <p class="text">
+      <p class="text pre-info">
         Исходя из этого, можно сразу сформулировать первый принцип.
       </p>
     </div>
@@ -67,7 +67,7 @@
       </p>
       <figure class="figure-image">
         <img src="img/1.jpg" alt="Отступы от предыдущего элемента к следующему">
-        <figcaption>
+        <figcaption class="caption-image">
           На скриншоте видно, как правильно задавать отступы, — только справа и снизу
           (показано оранжевым)
         </figcaption>
@@ -98,7 +98,7 @@
       </p>
       <figure class="figure-image">
         <img src="img/4.jpg" alt="Отступы задаются только между соседними элементами в потоке">
-        <figcaption>
+        <figcaption class="caption-image">
           На скриншоте — выпадение отступов. Отступ есть, но он не увеличивает размер
           «родителя» с голубым фоном, образуя лишний отступ — типичную ошибку вёрстки.
         </figcaption>
@@ -106,7 +106,7 @@
     </div>
 
     <div id="third-principle">
-      <h3>
+      <h3 class="three-subtitle">
         Последнему элементу группы нужно обнулять отступ
       </h3>
       <p class="text">
@@ -127,7 +127,7 @@
       <img class="only-image" src="img/6.jpg" alt="Код для обнуления отступа у последнего элемента группы с помощью псевдокласса :not">
     </div>
 
-    <h3>
+    <h3 class="three-subtitle">
       Типичный пример: отступы в карточке
     </h3>
     <p class="text">
@@ -147,8 +147,8 @@
       снизу — для заголовка.
     </p>
 
-    <div class="gray-box">
-      <h3>
+    <div class="gray-box bc-gray-box-end">
+      <h3 class="three-subtitle">
         Итог
       </h3>
       <p class="text">
